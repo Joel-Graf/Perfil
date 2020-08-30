@@ -1,12 +1,4 @@
 /* Geral */
-
-html {
-  margin: 0;
-  padding: 0;
-  color: white;
-  background-color: rgb(110, 80, 200);
-}
-
 a {
   text-decoration: none !important;
   color: white !important;
@@ -16,19 +8,22 @@ a:hover {
 }
 
 /* Header */
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: default;
 }
 .header-text {
   color: white;
 }
+.header-text > h1 {
+  font-size: 4rem;
+}
 .header-btn {
   padding: 0.6em;
-  font-size: 1.2em;
+  font-size: 1.3em;
   border: 2px solid white;
   border-radius: 20px;
   background-color: rgba(110, 80, 200, 0.8);
@@ -41,18 +36,76 @@ header {
   border: 2px solid rgb(160, 140, 170);
 }
 
-/* Skills */
-
+/* Sections: Skills e Projetos */
+.section-title {
+  background-color: rgb(80, 40, 100, 0.6);
+  color: white;
+  cursor: default;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: rgb(80, 50, 170, 0.7)!important;
   transition: 0.3s;
+  margin: 14px;
+  padding: 0px !important;
+  color: white;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.card-title {
+  width: 100%;
+  background-color: rgb(80, 40, 100, 0.4);
+  color: white;
+  cursor: default;
+}
+.card-img {
+  height: 270px;
+}
+.card-text {
+  font-size: 1.2rem;
+}
+.card > ul > li {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 1px black; 
+  margin: 0.6rem;
+  border: 2px solid rgba(80, 50, 170, 0.3);
+  border-radius: 4px;
+  cursor: default;
+}
+.card > ul > li:hover {
+  text-shadow: 1px 1px 3px black;
+  border-left: 4px solid rgba(80, 50, 170, 0.8);
+  border-right: 4px solid rgba(80, 50, 170, 0.8);
+  border-radius: 4px;
+  color: pink;
+}
+.card > ul > li > i {
+  margin-right: 8px;
+}
+
+/* Contacts */
+.contact-icon-btn {
+  font-size: 6rem;
+  height: 90px;
+  width: 90px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+  align-self: center;
+}
+.contact-icon-btn:hover {
+  text-shadow: 2px 2px 5px black;
+  color: pink;
+}
 
 /* Footer */
-
 .footer {
   height: 50px;
+  font-size: 1.2rem;
 }
