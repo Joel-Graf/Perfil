@@ -7,7 +7,7 @@ a {
   color: white !important;
 }
 a:hover {
-  color: pink !important;
+  color: rgb(160, 100, 200) !important;
 }
 
 /* Header */
@@ -81,7 +81,7 @@ header {
   border-left: 4px solid rgba(80, 50, 170, 0.8);
   border-right: 4px solid rgba(80, 50, 170, 0.8);
   border-radius: 4px;
-  color: pink;
+  color: rgb(160, 100, 200);
 }
 .card > ul > li > i {
   margin-right: 8px;
@@ -104,7 +104,7 @@ header {
 }
 .contact-icon-btn:hover {
   text-shadow: 2px 2px 5px black;
-  color: pink;
+  color: rgb(160, 100, 200);
 }
 
 /* Footer */
