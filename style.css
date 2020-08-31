@@ -1,4 +1,7 @@
 /* Geral */
+body {
+  background-color: rgb(120, 80, 160, 0.4) !important;
+}
 a {
   text-decoration: none !important;
   color: white !important;
