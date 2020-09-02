@@ -1,6 +1,7 @@
 /* Geral */
 body {
   background-color: rgb(120, 80, 160, 0.8) !important;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none !important;
