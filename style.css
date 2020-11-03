@@ -1,14 +1,14 @@
 /* Geral */
 body {
-  background-color: rgb(120, 80, 160, 0.8) !important;
+  background-color: rgb(120, 80, 160, 0.8);
   overflow-x: hidden;
 }
 a {
   text-decoration: none !important;
-  color: white !important;
+  color: white;
 }
 a:hover {
-  color: rgb(160, 100, 200) !important;
+  color: rgb(160, 100, 200);
 }
 
 /* Header */
@@ -48,10 +48,10 @@ header {
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background-color: rgb(80, 50, 170, 0.7)!important;
+  background-color: rgb(80, 50, 170, 0.7);
   transition: 0.3s;
   margin: 14px;
-  padding: 0px !important;
+  padding: 0px;
   color: white;
 }
 .card:hover {
